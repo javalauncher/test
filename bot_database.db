@@ -1,0 +1,13 @@
+-- Таблица каналов
+CREATE TABLE channels (
+    id INTEGER PRIMARY KEY,
+    username TEXT UNIQUE,
+    added_by INTEGER
+);
+
+-- Таблица админов
+CREATE TABLE admins (
+    user_id INTEGER PRIMARY KEY,
+    can_add_channels BOOLEAN DEFAULT 0,
+    can_post BOOLEAN DEFAULT 0
+);

@@ -4,7 +4,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 import sqlite3
 
 # Настройки
-BOT_TOKEN = "8283353760:AAEWh--gnJkMW3lwl601EqvCs_7_mnuLBOA"
+BOT_TOKEN = "8254302948:AAFfISS1CYRqIHpfT4lgOk0BMmLRK1CUb9E"
 ADMIN_ID = 7739672364
 
 # Подключение к БД
